@@ -1,0 +1,38 @@
+# NODE
+######################
+node_modules/
+*.code-workspace
+
+# Documentation
+######################
+.phpdoc/
+phpDocumentor.phar
+
+# Composer
+######################
+vendor/
+.env
+
+# Ignore source-map files. 
+*.*.map
+
+# Ignore translation files
+languages
+!languages/*.pot
+!languages/*sv_SE*
+
+# Ignore compiled files and builded blocks. 
+dist/backend
+dist/frontend
+dist/blocks
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
